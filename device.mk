@@ -41,8 +41,6 @@ PRODUCT_PACKAGES += \
 # Lineage Health
 $(call soong_config_set,lineage_health,charging_control_charging_path,/sys/class/oplus_chg/battery/mmi_charging_enable)
 
-# Livedisplay
-$(call soong_config_set_bool,OPLUS_LINEAGE_LIVEDISPLAY_HAL,ENABLE_SE,false)
 
 # NFC
 PRODUCT_PACKAGES += \
