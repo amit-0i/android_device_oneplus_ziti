@@ -7,6 +7,8 @@ bluetooth.device.default_name=OnePlus Nord CE3 5G
 # Graphics
 ro.surface_flinger.set_idle_timer_ms=4000
 ro.surface_flinger.set_touch_timer_ms=4000
+persist.sys.perf.scroll_opt=true
+persist.sys.perf.scroll_opt.heavy_app=2
 
 # Radio
 persist.radio.multisim.config=dsds
